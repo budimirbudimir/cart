@@ -1,68 +1,25 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# ELEMENT FE Test: Budimir Budimir
 
-## Available Scripts
+## Tools
 
-In the project directory, you can run:
+- Bootstrapped the app using Create React App with `--redux` template flag
+- ESLint and TS I added on top
+- Used React and Redux Toolkit for UI/store
 
-### `yarn start`
+## Commands
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+I used Yarn, so commands are aligned to it, for NPM, replace `yarn` with `npm`.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- `yarn install` to install dependencies
+- `yarn start` to run app locally
+- `yarn lint && yarn test` to run ESLint and Jest
+- `yarn build` to build production bundle
 
-### `yarn test`
+## Notes
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- Got a bit lost in the tooling, missed out on adding some more tests
+- Naming could be better, ex. Total could become Cart, etc.
+- Been a while since I wrote React, in the last 6 months it was almost exclusively VanillaJS
+- I could have added dedicated reducer action for toggling the selection, would separate concerns nicer
+- I could have added mocked call in order to obtain parameters asynchronously
+- I could have dedicated some more time to styles maybe, this is barely acceptable in my own opinion :)

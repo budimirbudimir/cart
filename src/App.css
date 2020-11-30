@@ -14,12 +14,14 @@
 }
 
 .App-header {
-  min-height: 100vh;
+  height: 75vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 1em;
+  background-color: #eee;
 }
 
 .App-link {
@@ -31,9 +33,9 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(10px)
+    transform: translateY(10px);
   }
   100% {
-    transform: translateY(0px)
+    transform: translateY(0px);
   }
 }
