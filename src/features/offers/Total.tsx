@@ -1,12 +1,13 @@
 import React from "react";
 import { useSelector } from "react-redux";
+
 import { selectOffers } from "./offersSlice";
 import calculatePrice from "../../utils/calculatePrice";
 import calculateTotal from "../../utils/calculateTotal";
+
 import styles from "./Offers.module.css";
 
 export function Total() {
-  // const dispatch = useDispatch()
   const offers = useSelector(selectOffers);
   const selectedOffers = offers.filter((o) => o.selected);
   const selectedPrices = selectedOffers.map((o) => calculatePrice(o));

@@ -1,3 +1,3 @@
 declare module "react-nouislider";
 
-declare type document = any // ugly fix, little time left ¯\_(ツ)_/¯
+declare type document = any // TODO ugly temp. fix ¯\_(ツ)_/¯

@@ -4,7 +4,6 @@ import { useSelector } from "react-redux";
 import { selectOffers } from "./offersSlice";
 import Module from "./Module";
 import { OfferProps, OffersProps } from "../../models";
-// import styles from "./Offers.module.css";
 
 export function Offers() {
   const offers: OffersProps = useSelector(selectOffers);
